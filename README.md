@@ -8,12 +8,12 @@
    https://www.youtube.com/watch?v=jSz3_6j9-bw
    ```
 
-# Aplikacja w chmurze Azure przy użyciu Docker oraz Terraform
+# Aplikacja "Hello World!" w chmurze Azure przy użyciu Docker oraz Terraform
 
 Github
 
    ```bash
-   git clone 
+   git clone https://github.com/matejiPLnd/Projek-Docker-TF.git
    ``` 
 
 ## Stacja robocza
@@ -180,7 +180,7 @@ Github
    
    ```bash
    image: <NAZWA NASZEGO OBRAZU>
-   ```bash
+   ```
    
 1. Wdrażamy poprzez `kubect apply`
 
@@ -232,10 +232,4 @@ Github
    
    curl 20.103.101.152:5000
    ```
-
-
-         --------       --------
-User -> |   API   | -> |  AWS   |
-        | Gateway |    | Lambda |
-         ---------      --------
 
