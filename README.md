@@ -113,7 +113,6 @@ Github
    REPOSITORY                       TAG               IMAGE ID       CREATED          SIZE
    mateuszkuletaaksacr.azurecr.io/myapp   latest      bff02e38c885   24 minutes ago   300MB
    mateuszkuletaaksacr.azurecr.io   latest            749fefffce8b   24 minutes ago   300MB
-   python                           3.8-slim-buster   df39427ca45b   6 days ago       114MB
    ```
 ## Logowanie do Azure
 
