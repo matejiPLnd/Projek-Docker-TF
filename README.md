@@ -92,7 +92,7 @@ Github
    Listę utworzonych obrazów możemy sprawdzić
    
    ```bash
-   sudo docker images
+   docker images
    ```
    
    ```bash
@@ -103,9 +103,9 @@ Github
 3. Tworzymy tag do utworzonego obrazu
 
    ```bash
-   sudo docker tag <IMAGE ID> <TAG>
+   docker tag <IMAGE ID> <TAG>
    
-   sudo docker tag bff02e38c885 mateuszkuletaaksacr.azurecr.io/myapp:latest
+   docker tag bff02e38c885 mateuszkuletaaksacr.azurecr.io/myapp:latest
    ```
    
    ```bash
@@ -156,13 +156,13 @@ Github
 1. Login:
 
    ```bash
-   sudo az acr login -n <NAZWA KLASTRA>
+   az acr login -n <NAZWA KLASTRA>
    ```
 
 2. Robimy `push` do repozytorium
 
    ```bash
-   sudo docker push mateuszkuletaaksacr.azurecr.io/myapp
+   docker push mateuszkuletaaksacr.azurecr.io/myapp
    ```
 
 3. Uzyskiwanie dostępu dla zarządzanego klastra
