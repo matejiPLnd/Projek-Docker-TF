@@ -99,7 +99,6 @@ Github
    REPOSITORY                       TAG               IMAGE ID       CREATED          SIZE
    <none>                           <none>            bff02e38c885   12 seconds ago   300MB
    mateuszkuletaaksacr.azurecr.io   latest            749fefffce8b   24 minutes ago   300MB
-   python                           3.8-slim-buster   df39427ca45b   6 days ago       114MB
    ```
 3. Tworzymy tag do utworzonego obrazu
 
