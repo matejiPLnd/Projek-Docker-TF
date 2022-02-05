@@ -80,7 +80,7 @@ Github
 1. Będąc w folderze naszego projektu tworzymy obraz Dockera
    
    ```bash
-   sudo docker build .
+   docker build . -t mateuszkuletaaksacr.azurecr.io/myapp:latest.
    ```
 
 2. Po poprawnym utworzeniu obrazu wyświetli się komunikat:
