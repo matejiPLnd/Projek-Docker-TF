@@ -65,13 +65,6 @@ Github
 
    ```bash
    ssh ubuntu@<IP_ADDRESS>
-
-   # jak debugować?
-   ssh ubuntu@<IP_ADDRESS>  -vvv
-
-   # a teraz ze wskazaniem klucza,
-   # który chcemy uzyc
-   ssh ubuntu@<IP_ADDRESS> -i ~/.ssh/wsb_id_rsa
    ```
 
 
