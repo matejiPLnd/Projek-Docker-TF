@@ -149,7 +149,7 @@ Github
 1. Login:
 
    ```bash
-   az acr login -n <NAZWA KLASTRA>
+   az acr login -n <NAZWA KONTENERA>
    ```
 
 2. Robimy `push` do repozytorium
